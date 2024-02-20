@@ -59,46 +59,122 @@ price (Housing price, it is either the current listing price or recently sold pr
 <tr>
 <td>
 state              Count
+</td>
+<td>
 Connecticut        98816
+</td>
+<td>
 Delaware            2135
+</td>
+<td>
 Georgia               50
+</td>
+<td>
 Louisiana              3
+</td>
+<td>
 Maine              36650
+</td>
+<td>
 Massachusetts     177170
+</td>
+<td>
 New Hampshire      51394
+</td>
+<td>
 New Jersey        256551
+</td>
+<td>
 New York          653061
+</td>
+<td>
 Pennsylvania       20060
+</td>
+<td>
 Puerto Rico        24679
+</td>
+<td>
 Rhode Island       29610
+</td>
+<td>
 South Carolina        25
+</td>
+<td>
 Tennessee             20
+</td>
+<td>
 Vermont            48230
+</td>
+<td>
 Virgin Islands      2573
+</td>
+<td>
 Virginia              31
+</td>
+<td>
 West Virginia          5
+</td>
+<td>
 Wyoming                3
 </td>
 <td>
 state             Count
+</td>
+<td>
 Connecticut       13753
+</td>
+<td>
 Delaware           1290
+</td>
+<td>
 Georgia               5
+</td>
+<td>
 Louisiana             1
+</td>
+<td>
 Maine              4938
+</td>
+<td>
 Massachusetts     10051
+</td>
+<td>
 New Hampshire      3431
+</td>
+<td>
 New Jersey        32601
+</td>
+<td>
 New York          67159
+</td>
+<td>
 Pennsylvania       9549
+</td>
+<td>
 Puerto Rico        2645
+</td>
+<td>
 Rhode Island       3332
+</td>
+<td>
 South Carolina        1
+</td>
+<td>
 Tennessee             1
+</td>
+<td>
 Vermont            2544
+</td>
+<td>
 Virgin Islands      730
+</td>
+<td>
 Virginia              7
+</td>
+<td>
 West Virginia         1
+</td>
+<td>
 Wyoming               1
 </td>
 </tr>
