@@ -103,12 +103,17 @@ Wyoming               1<br/>
 </table>
 
 #### Improving the Model
-##### The range of values for the prev_sold_date feature is too wide and too far into the past for practical purposes.
-##### The rows for only the past few years will be used, generally after 2015.
-##### The price feature also appears to be too wide and could use some attention.
-##### Whiskers and Zscore can help identify outliers.  After reviewing the results, Zscore appears to be the beter option.
-##### Missing values for the bed, bath, acre_lot, and house_size have been replaced with mode().
-##### Rows with other missing values will removed.
+##### 
+<ul>
+<li>The range of values for the prev_sold_date feature is too wide and too far into the past for practical purposes.
+<ol>The rows for only the past few years will be used, generally after 2015.</ol></li>
+<li>The price feature also appears to be too wide and could use some attention.
+<ol>Whiskers and Zscore can help identify outliers.  After reviewing the results, Zscore appears to be the beter option.
+</ol></li>
+<li>Missing values for the bed, bath, acre_lot, and house_size have been replaced with mode().</li>
+<li>Rows with other missing values will removed.</li>
+</ul>
+
 ##### Normalizing the data values will be explored for Capstone 2.
 ##### Here are samples of graphs for NJ.
 #### Before ZScore
