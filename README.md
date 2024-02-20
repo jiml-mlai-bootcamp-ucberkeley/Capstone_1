@@ -34,8 +34,6 @@ Data columns (total 10 columns):
 dtypes: float64(6), object(4)
 memory usage: 106.9+ MB
 
-
-
 #### Here is the a list of descriptions for the features in the dataset.
 status (Housing status - a. ready for sale or b. ready to build)
 bed (# of beds)
@@ -104,6 +102,37 @@ Wyoming               1<br/>
 </tr>
 </table>
 
+#### Improving the Model
+##### The price feature appears to be skewed to the right and could use some attention.
+##### Whiskers and Zscore can help identify outliers.  After reviewing the results, Zscore appears to be the beter option.
+##### Missing values for the bed, bath, acre_lot, and house_size have been replaced with mode().
+##### Rows with other missing values will removed.
+##### Normalizing the data values will be explored for Capstone 2.
+##### Here are samples of graphs for NJ
+##### Before ZScore
+<img src="images/nj-prices-before-zscore.png">
+
+##### After ZScore
+<img src="images/nj-prices-after-zscore.png">
+
+#### State level analysis is provided in Notebooks that contain "LatLong" in the file name.
+##### The five states selected worked well with the macro level analysis.
+##### There was sufficient data to generate acceptable predictions and results.
+##### Here is a sample of macro level analysis from NJ.
+model|explained variance score|mae score|mse score|r2 score|mean fit time
+Decision Tree Best Params|0.525465856|161,667.633996|76,497,959,521.268478|0.524659|0.009398
+Recursive Feature Elimination|0.437692147|168,477.035464|90,588,408,113.372543|0.437104|0.033879
+Sequential Feature Selector|0.300629820|197,605.994537|112,633,815,122.929260|0.300119|0.028026
+
+
+#### File names with out "LatLong" provide micro level analysis for the location with the most houses.
+##### This approach worked well for NJ and NY, but not Connecticut, Massachusetts, and Pennsylvania.
+##### There weren't sufficient number of houses in the latter 3 states to generate acceptable predictions and results.
+##### Here is a sample of micro level analysis from NY.
+model|explained variance score|mae score|mse score|r2 score|mean fit time
+Decision Tree Best Params|0.661461418|530,364.125397|747,909,920,375.919312|0.645625|0.001765
+Recursive Feature Elimination|0.832403592|423,355.577778|370,211,522,923.479004|0.824586|0.002797
+Sequential Feature Selector|0.782233403|471,527.001058|475,785,667,513.888428|0.774563|0.000211
 
 ### Model Comparisons
 #### Various feature selectors were used with different models.
@@ -132,3 +161,17 @@ Wyoming               1<br/>
 <tr><td></td><td>Recursive Feature Elimination</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
 </table>
+
+### Insights
+#### As initially described, working with this dataset is challenging.
+#### The provider appears to be appending the updates to the existing file instead of incremental updates.
+#### The data for some states works well at a macro level, but insufficient for micro level analysis.
+#### The latitude and longitude values that were added gave better results than using zip code.
+
+
+## Next steps and recommendations
+
+
+
+## Link to notebook
+### https://github.com/jiml-mlai-bootcamp-ucberkeley/Capstone_1
