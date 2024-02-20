@@ -58,124 +58,48 @@ price (Housing price, it is either the current listing price or recently sold pr
 </tr>
 <tr>
 <td>
-state              Count
+state              Count<br/>
+Connecticut        98816<br/>
+Delaware            2135<br/>
+Georgia               50<br/>
+Louisiana              3<br/>
+Maine              36650<br/>
+Massachusetts     177170<br/>
+New Hampshire      51394<br/>
+New Jersey        256551<br/>
+New York          653061<br/>
+Pennsylvania       20060<br/>
+Puerto Rico        24679<br/>
+Rhode Island       29610<br/>
+South Carolina        25<br/>
+Tennessee             20<br/>
+Vermont            48230<br/>
+Virgin Islands      2573<br/>
+Virginia              31<br/>
+West Virginia          5<br/>
+Wyoming                3<br/>
 </td>
 <td>
-Connecticut        98816
-</td>
-<td>
-Delaware            2135
-</td>
-<td>
-Georgia               50
-</td>
-<td>
-Louisiana              3
-</td>
-<td>
-Maine              36650
-</td>
-<td>
-Massachusetts     177170
-</td>
-<td>
-New Hampshire      51394
-</td>
-<td>
-New Jersey        256551
-</td>
-<td>
-New York          653061
-</td>
-<td>
-Pennsylvania       20060
-</td>
-<td>
-Puerto Rico        24679
-</td>
-<td>
-Rhode Island       29610
-</td>
-<td>
-South Carolina        25
-</td>
-<td>
-Tennessee             20
-</td>
-<td>
-Vermont            48230
-</td>
-<td>
-Virgin Islands      2573
-</td>
-<td>
-Virginia              31
-</td>
-<td>
-West Virginia          5
-</td>
-<td>
-Wyoming                3
-</td>
-<td>
-state             Count
-</td>
-<td>
-Connecticut       13753
-</td>
-<td>
-Delaware           1290
-</td>
-<td>
-Georgia               5
-</td>
-<td>
-Louisiana             1
-</td>
-<td>
-Maine              4938
-</td>
-<td>
-Massachusetts     10051
-</td>
-<td>
-New Hampshire      3431
-</td>
-<td>
-New Jersey        32601
-</td>
-<td>
-New York          67159
-</td>
-<td>
-Pennsylvania       9549
-</td>
-<td>
-Puerto Rico        2645
-</td>
-<td>
-Rhode Island       3332
-</td>
-<td>
-South Carolina        1
-</td>
-<td>
-Tennessee             1
-</td>
-<td>
-Vermont            2544
-</td>
-<td>
-Virgin Islands      730
-</td>
-<td>
-Virginia              7
-</td>
-<td>
-West Virginia         1
-</td>
-<td>
-Wyoming               1
+state             Count<br/>
+Connecticut       13753<br/>
+Delaware           1290<br/>
+Georgia               5<br/>
+Louisiana             1<br/>
+Maine              4938<br/>
+Massachusetts     10051<br/>
+New Hampshire      3431<br/>
+New Jersey        32601<br/>
+New York          67159<br/>
+Pennsylvania       9549<br/>
+Puerto Rico        2645<br/>
+Rhode Island       3332<br/>
+South Carolina        1<br/>
+Tennessee             1<br/>
+Vermont            2544<br/>
+Virgin Islands      730<br/>
+Virginia              7<br/>
+West Virginia         1<br/>
+Wyoming               1<br/>
 </td>
 </tr>
 </table>
