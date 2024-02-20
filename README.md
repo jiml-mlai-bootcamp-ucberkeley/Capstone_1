@@ -35,16 +35,16 @@
     memory usage: 106.9+ MB
 
 #### Here is the a list of descriptions for the features in the dataset.
-status (Housing status - a. ready for sale or b. ready to build)
-bed (# of beds)
-bath (# of bathrooms)
-acre_lot (Property / Land size in acres)
-city (city name)
-state (state name)
-zip_code (postal code of the area)
-house_size (house area/size/living space in square feet)
-prev_sold_date (Previously sold date)
-price (Housing price, it is either the current listing price or recently sold price if the house is sold recently)
+    status (Housing status - a. ready for sale or b. ready to build)
+    bed (# of beds)
+    bath (# of bathrooms)
+    acre_lot (Property / Land size in acres)
+    city (city name)
+    state (state name)
+    zip_code (postal code of the area)
+    house_size (house area/size/living space in square feet)
+    prev_sold_date (Previously sold date)
+    price (Housing price, it is either the current listing price or recently sold price if the house is sold recently)
 
 #### For the purpose of this project a macro level analysis will be conducted at the state level for Connecticut, Massachusetts, NJ, NY, and Pennsylvania.
 #### The initial count of houses in each state indicate a sufficient number to provide an adequate range.
