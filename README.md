@@ -172,10 +172,16 @@ Wyoming               1<br/>
 #### The provider appears to be appending the updates to the existing file instead of incremental updates.
 #### The data for some states works well at a macro level, but insufficient for micro level analysis.
 #### The latitude and longitude values that were added gave better results than using zip code.
+#### A data source that provides the Latitude and Longitude for zip codes in the US was used for this purpose.
+#### KMeans helped to cluster the houses and put them in the correct geographic locations.
 
 
 ## Next steps and recommendations
-
+#### Pricing houses is very location specific.  Geocoding the data was helpful, but the coordinates were almost equivalent to zip code.
+#### The surrounding areas around each cluster can vary in the degree of desirability for home buyers.
+#### The dataset used here does not provide specific addresses which would be needed for optimal micro level analysis.
+#### Also, the other features bed, bath, acre lot, and house size can significantly impact the price.
+#### Age of the house is missing from the data.  That is also very important.
 
 
 ## Link to notebook
