@@ -139,7 +139,7 @@ Wyoming               1<br/>
 <tr><td>Sequential Feature Selector</td><td>0.782233403</td><td>471,527.001058</td><td>475,785,667,513.888428</td><td>0.774563</td><td>0.000211</td></tr>
 </table>
 
-### Model Comparisons
+## Model Comparisons
 #### Various feature selectors were used with different models.
 <table>
 <tr><th>Models</th><th>Feature Selectors</th></tr>
@@ -167,7 +167,7 @@ Wyoming               1<br/>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
 </table>
 
-### Insights
+## Insights
 #### As initially described, working with this dataset is challenging.
 #### The provider appears to be appending the updates to the existing file instead of incremental updates.
 #### The data for some states works well at a macro level, but insufficient for micro level analysis.
