@@ -103,13 +103,13 @@ Wyoming               1<br/>
 </table>
 
 #### Improving the Model
-##### 
+
 <ul>
 <li>The range of values for the prev_sold_date feature is too wide and too far into the past for practical purposes.
-<ol>The rows for only the past few years will be used, generally after 2015.</ol></li>
+<ul><ol>The rows for only the past few years will be used, generally after 2015.</ol></ul></li>
 <li>The price feature also appears to be too wide and could use some attention.
-<ol>Whiskers and Zscore can help identify outliers.  After reviewing the results, Zscore appears to be the beter option.
-</ol></li>
+<ul><ol>Whiskers and Zscore can help identify outliers.  After reviewing the results, Zscore appears to be the beter option.
+</ol></ul></li>
 <li>Missing values for the bed, bath, acre_lot, and house_size have been replaced with mode().</li>
 <li>Rows with other missing values will removed.</li>
 </ul>
