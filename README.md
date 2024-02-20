@@ -136,8 +136,8 @@ Wyoming               1<br/>
 <tr><th>model</th><th>explained variance score</th><th>mae score</th><th>mse score</th><th>r2 score</th><th>mean fit time</th></tr>
 <tr><td>Decision Tree Best Params</td><td>0.661461418</td><td>530,364.125397</td><td>747,909,920,375.919312</td><td>0.645625</td><td>0.001765</td></tr>
 <tr><td>Recursive Feature Elimination</td><td>0.832403592</td><td>423,355.577778</td><td>370,211,522,923.479004</td><td>0.824586</td><td>0.002797</td></tr>
-<tr><td>Sequential Feature Selector</td><td>0.782233403</td><td>471,527.001058</td><td>475,785,667,513.888428</td><td>0.774563</td><td>0.000211</td><td>
-<table>
+<tr><td>Sequential Feature Selector</td><td>0.782233403</td><td>471,527.001058</td><td>475,785,667,513.888428</td><td>0.774563</td><td>0.000211</td></tr>
+</table>
 
 ### Model Comparisons
 #### Various feature selectors were used with different models.
