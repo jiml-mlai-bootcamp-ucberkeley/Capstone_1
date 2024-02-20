@@ -17,22 +17,22 @@
 
 ### Data Descriptions
 #### Here is the preliminary info about our dataset.
-RangeIndex: 1401066 entries, 0 to 1401065
-Data columns (total 10 columns):
- #   Column          Non-Null Count    Dtype  
----  ------          --------------    -----  
- 0   status          1401066 non-null  object 
- 1   bed             1184538 non-null  float64
- 2   bath            1206853 non-null  float64
- 3   acre_lot        1043599 non-null  float64
- 4   city            1400875 non-null  object 
- 5   state           1401066 non-null  object 
- 6   zip_code        1400587 non-null  float64
- 7   house_size      950954 non-null   float64
- 8   prev_sold_date  714773 non-null   object 
- 9   price           1400958 non-null  float64
-dtypes: float64(6), object(4)
-memory usage: 106.9+ MB
+    RangeIndex: 1401066 entries, 0 to 1401065
+    Data columns (total 10 columns):
+    #   Column          Non-Null Count    Dtype  
+    ---  ------          --------------    -----  
+    0   status          1401066 non-null  object 
+    1   bed             1184538 non-null  float64
+    2   bath            1206853 non-null  float64
+    3   acre_lot        1043599 non-null  float64
+    4   city            1400875 non-null  object 
+    5   state           1401066 non-null  object 
+    6   zip_code        1400587 non-null  float64
+    7   house_size      950954 non-null   float64
+    8   prev_sold_date  714773 non-null   object 
+    9   price           1400958 non-null  float64
+    dtypes: float64(6), object(4)
+    memory usage: 106.9+ MB
 
 #### Here is the a list of descriptions for the features in the dataset.
 status (Housing status - a. ready for sale or b. ready to build)
