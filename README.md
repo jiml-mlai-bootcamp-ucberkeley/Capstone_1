@@ -59,16 +59,16 @@ price (Housing price, it is either the current listing price or recently sold pr
 <tr>
 <td>
 state              Count<br/>
-Connecticut        98816<br/>
+<b>Connecticut        98816</b><br/>
 Delaware            2135<br/>
 Georgia               50<br/>
 Louisiana              3<br/>
 Maine              36650<br/>
-Massachusetts     177170<br/>
+<b>Massachusetts     177170</b><br/>
 New Hampshire      51394<br/>
-New Jersey        256551<br/>
-New York          653061<br/>
-Pennsylvania       20060<br/>
+<b>New Jersey        256551</b><br/>
+<b>New York          653061</b><br/>
+<b>Pennsylvania       20060</b><br/>
 Puerto Rico        24679<br/>
 Rhode Island       29610<br/>
 South Carolina        25<br/>
@@ -81,16 +81,16 @@ Wyoming                3<br/>
 </td>
 <td>
 state             Count<br/>
-Connecticut       13753<br/>
+<b>Connecticut       13753</b><br/>
 Delaware           1290<br/>
 Georgia               5<br/>
 Louisiana             1<br/>
 Maine              4938<br/>
-Massachusetts     10051<br/>
+<b>Massachusetts     10051</b><br/>
 New Hampshire      3431<br/>
-New Jersey        32601<br/>
-New York          67159<br/>
-Pennsylvania       9549<br/>
+<b>New Jersey        32601</b><br/>
+<b>New York          67159</b><br/>
+<b>Pennsylvania       9549</b><br/>
 Puerto Rico        2645<br/>
 Rhode Island       3332<br/>
 South Carolina        1<br/>
