@@ -119,20 +119,25 @@ Wyoming               1<br/>
 ##### The five states selected worked well with the macro level analysis.
 ##### There was sufficient data to generate acceptable predictions and results.
 ##### Here is a sample of macro level analysis from NJ.
-model|explained variance score|mae score|mse score|r2 score|mean fit time
-Decision Tree Best Params|0.525465856|161,667.633996|76,497,959,521.268478|0.524659|0.009398
-Recursive Feature Elimination|0.437692147|168,477.035464|90,588,408,113.372543|0.437104|0.033879
-Sequential Feature Selector|0.300629820|197,605.994537|112,633,815,122.929260|0.300119|0.028026
+
+<table>
+<tr><th>model</th><th>explained variance score</th><th>mae score</th><th>mse score</th><th>r2 score</th><th>mean fit time</th></tr>
+<tr><td>Decision Tree Best Params</td><td>0.525465856</td><td>161,667.633996</td><td>76,497,959,521.268478</td><td>0.524659</td><td>0.009398</td></tr>
+<tr><td>Recursive Feature Elimination</td><td>0.437692147</td><td>168,477.035464</td><td>90,588,408,113.372543</td><td>0.437104</td><td>0.033879</td></tr>
+<tr><td>Sequential Feature Selector</td><td>0.300629820</td><td>197,605.994537</td><td>112,633,815,122.929260</td><td>0.300119</td><td>0.028026</td></tr>
+</table>
 
 
 #### File names with out "LatLong" provide micro level analysis for the location with the most houses.
 ##### This approach worked well for NJ and NY, but not Connecticut, Massachusetts, and Pennsylvania.
 ##### There weren't sufficient number of houses in the latter 3 states to generate acceptable predictions and results.
 ##### Here is a sample of micro level analysis from NY.
-model|explained variance score|mae score|mse score|r2 score|mean fit time
-Decision Tree Best Params|0.661461418|530,364.125397|747,909,920,375.919312|0.645625|0.001765
-Recursive Feature Elimination|0.832403592|423,355.577778|370,211,522,923.479004|0.824586|0.002797
-Sequential Feature Selector|0.782233403|471,527.001058|475,785,667,513.888428|0.774563|0.000211
+<table>
+<tr><th>model</th><th>explained variance score</th><th>mae score</th><th>mse score</th><th>r2 score</th><th>mean fit time</th></tr>
+<tr><td>Decision Tree Best Params</td><td>0.661461418</td><td>530,364.125397</td><td>747,909,920,375.919312</td><td>0.645625</td><td>0.001765</td></tr>
+<tr><td>Recursive Feature Elimination</td><td>0.832403592</td><td>423,355.577778</td><td>370,211,522,923.479004</td><td>0.824586</td><td>0.002797</td></tr>
+<tr><td>Sequential Feature Selector</td><td>0.782233403</td><td>471,527.001058</td><td>475,785,667,513.888428</td><td>0.774563</td><td>0.000211</td><td>
+<table>
 
 ### Model Comparisons
 #### Various feature selectors were used with different models.
