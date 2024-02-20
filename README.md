@@ -115,7 +115,7 @@ Wyoming               1<br/>
 <li>Normalizing the data values will be explored for Capstone 2.</li>
 </ul>
 
-##### Here are samples of graphs for NJ.
+#### Here are samples of graphs for NJ.
 #### Before ZScore
 <img src="images/nj-prices-before-zscore.png">
 
@@ -171,7 +171,7 @@ Wyoming               1<br/>
 
 ## Insights
 #### As initially described, working with this dataset is challenging.
-#### The provider appears to be appending the updates to the existing file instead of incremental updates.
+#### The provider appears to be appending updates to the existing file instead of incremental updates.
 #### The data for some states works well at a macro level, but insufficient for micro level analysis.
 #### The latitude and longitude values that were added gave better results than using zip code.
 #### A data source that provides the Latitude and Longitude for zip codes in the US was used for this purpose.
