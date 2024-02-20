@@ -116,13 +116,13 @@ Wyoming               1<br/>
 </ul>
 
 #### Here are samples of graphs for NJ.
-#### Before ZScore
+#### House prices before ZScore
 <img src="images/nj-prices-before-zscore.png">
 
-#### After ZScore
+#### House prices after ZScore
 <img src="images/nj-prices-after-zscore.png">
 
-#### State level analysis is provided in Notebooks that contain "LatLong" in the file name.
+#### Macro analysis (state level ) is provided in Notebooks that contain "LatLong" in the file name.
 ##### The five states selected worked well with the macro level analysis.
 ##### There was sufficient data to generate acceptable predictions and results.
 ##### Here is a sample of macro level analysis from NJ.
@@ -135,7 +135,7 @@ Wyoming               1<br/>
 </table>
 
 
-#### File names with out "LatLong" provide micro level analysis for the location with the most houses.
+#### File names with out "LatLong" provide micro level (zip code level) analysis for the location with the most houses.
 ##### This approach worked well for NJ and NY, but not Connecticut, Massachusetts, and Pennsylvania.
 ##### There weren't sufficient number of houses in the latter 3 states to generate acceptable predictions and results.
 ##### Here is a sample of micro level analysis from NY.
@@ -147,7 +147,7 @@ Wyoming               1<br/>
 </table>
 
 ## Model Comparisons
-#### Various feature selectors were used with different models.
+#### Different models were used with various feature selectors.
 <table>
 <tr><th>Models</th><th>Feature Selectors</th></tr>
 <tr><td>Decision Tree</td><td>Best Parameters</td></tr>
@@ -176,10 +176,10 @@ Wyoming               1<br/>
 #### The latitude and longitude values that were added gave better results than using zip code.
 #### A data source that provides the Latitude and Longitude for zip codes in the US was used for this purpose.
 #### KMeans helped to cluster the houses and put them in the correct geographic locations.
-
+##### US zip codes with lat and long  https://www.kaggle.com/datasets/joeleichter/us-zip-codes-with-lat-and-long
 
 ## Next steps and recommendations
-#### Pricing houses is very location specific.  Geocoding the data was helpful, but the coordinates were almost equivalent to zip code.
+#### Pricing houses is very location specific.  Geocoding the data was helpful, but the general coordinates were almost equivalent to zip code.
 #### The surrounding areas around each cluster can vary in the degree of desirability for home buyers.
 #### The dataset used here does not provide specific addresses which would be needed for optimal micro level analysis.
 #### Also, the other features bed, bath, acre lot, and house size can significantly impact the price.
