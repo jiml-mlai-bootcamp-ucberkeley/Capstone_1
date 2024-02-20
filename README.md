@@ -112,9 +112,9 @@ Wyoming               1<br/>
 </ol></ul></li>
 <li>Missing values for the bed, bath, acre_lot, and house_size have been replaced with mode().</li>
 <li>Rows with other missing values will removed.</li>
+<li>Normalizing the data values will be explored for Capstone 2.</li>
 </ul>
 
-##### Normalizing the data values will be explored for Capstone 2.
 ##### Here are samples of graphs for NJ.
 #### Before ZScore
 <img src="images/nj-prices-before-zscore.png">
