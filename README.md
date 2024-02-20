@@ -143,25 +143,20 @@ Wyoming               1<br/>
 #### Various feature selectors were used with different models.
 <table>
 <tr><th>Models</th><th>Feature Selectors</th></tr>
-<tr><td>Decision Tree</td><td></td></tr>
-<tr><td></td><td>Best Parameters</td></tr>
+<tr><td>Decision Tree</td><td>Best Parameters</td></tr>
 <tr><td></td><td>Recursive Feature Elimination</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
-<tr><td>K-Nearest Neighbors</td><td></td></tr>
-<tr><td></td><td>Best Parameters</td></tr>
+<tr><td>K-Nearest Neighbors</td><td>Best Parameters</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
-<tr><td>Lasso</td><td></td></tr>
-<tr><td></td><td>Best Parameters</td></tr>
+<tr><td>Lasso</td><td>Best Parameters</td></tr>
 <tr><td></td><td>Select From Model</td></tr>
 <tr><td></td><td>Recursive Feature Elimination</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
-<tr><td>Linear and Polynomial</td><td></td></tr>
-<tr><td></td><td>Best Parameters</td></tr>
+<tr><td>Linear and Polynomial</td><td>Best Parameters</td></tr>
 <tr><td></td><td>Select From Model</td></tr>
 <tr><td></td><td>Recursive Feature Elimination</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
-<tr><td>Ridge</td><td></td></tr>
-<tr><td></td><td>Best Parameters</td></tr>
+<tr><td>Ridge</td><td>Best Parameters</td></tr>
 <tr><td></td><td>Select From Model</td></tr>
 <tr><td></td><td>Recursive Feature Elimination</td></tr>
 <tr><td></td><td>Sequential Feature Selector</td></tr>
